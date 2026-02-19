@@ -50,13 +50,11 @@ EC2への運用アクセスはSSHではなくSSM(Session Manager)を利用して
 ---
 
 ## 実行手順
-
-
-terraform init
-terraform validate
-terraform plan
-terraform apply
-terraform destroy
+- terraform init
+- terraform validate
+- terraform plan
+- terraform apply
+- terraform destroy
 
 ## 学習ポイント
 - Public/Private Subnet分離設計
